@@ -333,3 +333,18 @@ details p { color: var(--muted); max-width: 850px; }
   .cta, .band, .contact-copy { padding: 30px 24px; }
   .footer-grid { grid-template-columns: 1fr; }
 }
+
+/* Testimonials */
+.quote-featured { margin: 28px 0 36px; padding: 40px 44px; border-radius: 26px; background: #111; color: #fff; position: relative; box-shadow: var(--shadow); }
+.quote-featured::before { content: "\201C"; position: absolute; top: 6px; left: 24px; font-size: 6rem; line-height: 1; color: var(--red); font-family: Georgia, serif; }
+.quote-featured blockquote { margin: 0; padding-top: 28px; font-size: clamp(1.25rem, 2.6vw, 1.85rem); line-height: 1.4; font-weight: 750; letter-spacing: -.015em; }
+.quote-featured cite, .quote-card cite { display: block; margin-top: 18px; font-style: normal; font-weight: 800; font-size: .95rem; }
+.quote-featured cite span, .quote-card cite span { display: block; font-weight: 600; color: var(--muted); font-size: .85rem; margin-top: 2px; }
+.quote-featured cite span { color: #bbb; }
+.quote-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.quote-card { margin: 0; padding: 28px; border: 1px solid var(--line); border-radius: 20px; background: #fff; border-top: 4px solid var(--red); }
+.quote-card blockquote { margin: 0; color: #333; line-height: 1.65; }
+@media (max-width: 900px) {
+  .quote-grid { grid-template-columns: 1fr; }
+  .quote-featured { padding: 36px 26px 28px; }
+}
