@@ -45,15 +45,15 @@ Prissha Chawla — `chawlaps@mail.uc.edu`
 You do **not** need to edit every HTML page each semester. Open `script.js` and change:
 
 ```js
-const CURRENT_TERM = "Fall 2026";
-```
-
-For example, when Spring 2027 begins, change it to:
-
-```js
 const CURRENT_TERM = "Spring 2027";
 ```
 
-The website will automatically update every element marked with the current semester and will calculate the next semester (`Fall 2027`) automatically.
+For example, when Fall 2027 begins, change it to:
+
+```js
+const CURRENT_TERM = "Fall 2027";
+```
+
+The website will automatically update every element marked with the current semester and will calculate the next semester (`Fall 2027` for a current term of Spring 2027) automatically.
 
 **Note:** this only updates the website text. Your Google Forms are separate and their semester-choice questions must be edited in Google Forms when needed.

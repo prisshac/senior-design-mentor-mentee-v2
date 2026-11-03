@@ -1,10 +1,10 @@
 // ============================================================
 // SITE SEMESTER SETTINGS
 // Change ONLY this one line when a new semester begins.
-// Examples: "Fall 2026", "Spring 2027", "Fall 2027"
+// Examples: "Spring 2027", "Fall 2027", "Spring 2028"
 // The site automatically calculates the following semester.
 // ============================================================
-const CURRENT_TERM = "Fall 2026";
+const CURRENT_TERM = "Spring 2027";
 
 function getNextTerm(term) {
   const match = term.trim().match(/^(Fall|Spring)\s+(\d{4})$/i);
