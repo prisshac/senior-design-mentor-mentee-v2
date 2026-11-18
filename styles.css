@@ -353,3 +353,10 @@ details p { color: var(--muted); max-width: 850px; }
 @media (min-width: 901px) {
   .hero { background-size: auto 185%; background-position: 24% 58%; }
 }
+
+/* Open projects page */
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; }
+.project-card { display: flex; flex-direction: column; }
+.project-card h3 { margin-top: 0; }
+.project-foot { margin-top: auto; padding-top: 12px; }
+.spots { display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--soft-red); color: var(--red); font-weight: 800; font-size: .9rem; }
